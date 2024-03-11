@@ -1,0 +1,25 @@
+/* 
+    템플릿을 받으면 기존에 있는 css는 바꾸지 말고 새 CSS를 만들어서 추가하면 위험도가 낮아짐
+    수정하고 싶은 코드를 긁어서 가져와서 새 css에 덧붙여서 바꿀 것
+*/
+
+#header > .logo span {
+    font-weight: 300;
+    font-size: 1rem;
+    padding-top: 5px;
+    display: block;
+    color: rgba(255, 255, 255, 0.65);
+}
+#moonD{
+    background-color: #7CBDFF;
+}
+
+#moonI{
+    width: 100px;
+    text-align: center;
+}
+
+.song-icon img{
+    width: 20px;
+    height: 20px;
+}
