@@ -2721,12 +2721,12 @@
 				color: #FFF;
 			}
 
-			.spotlight.alt .image {
+			/* .spotlight.alt .image {
 				-moz-order: 2;
 				-webkit-order: 2;
 				-ms-order: 2;
 				order: 2;
-			}
+			} */
 
 		@media screen and (max-width: 1280px) {
 

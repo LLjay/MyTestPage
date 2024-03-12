@@ -11,14 +11,6 @@
     color: rgba(255, 255, 255, 0.65);
 }
 
-#moonD{
-    background-color: #7CBDFF;
-}
-
-#moonI{
-    width: 100px;
-    text-align: center;
-}
 
 /* .song-icon img{
     width: 20px;
@@ -55,16 +47,25 @@ body:after {
 }
 
     .song-icon{
-        width: 100%;
+        width: 80%;
     }
 
     .song-icon:hover{
         opacity: 50%;
     }
 
+    .song-list{
+        width: 100%;
+    }
     .song-title{
+        width: 100%;
         display: flex;
         justify-content: space-around;
+        text-align: center;
+    }
+
+    .song-name{
+        text-align: center;
     }
 
     /* .song-view{
@@ -86,3 +87,88 @@ body:after {
         top: 0px;
         left: 0px;
     } */
+
+    .spotlight {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+	}
+
+		.spotlight > * {
+			-moz-flex-shrink: 1;
+			-webkit-flex-shrink: 1;
+			-ms-flex-shrink: 1;
+			flex-shrink: 1;
+			-moz-flex-grow: 0;
+			-webkit-flex-grow: 0;
+			-ms-flex-grow: 0;
+			flex-grow: 0;
+		}
+
+		.spotlight > * {
+			width: 50%;
+		}
+
+        .spotlight > .song-list {
+			width: 100%;
+		}
+
+		.spotlight p:last-child {
+			margin: 0;
+		}
+
+		.spotlight .inner {
+			padding: 6rem;
+		}
+
+		.spotlight .image {
+			margin: 0;
+		}
+
+			.spotlight .image img {
+				width: 100%;
+			}
+
+		.spotlight.alt {
+			background: #1e1f23;
+			color: rgba(255, 255, 255, 0.25);
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-flex-wrap: wrap;
+			-webkit-flex-wrap: wrap;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+			-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+			align-items: center;
+			text-align: left;
+		}
+
+			.spotlight.alt > * {
+				-moz-flex-shrink: 1;
+				-webkit-flex-shrink: 1;
+				-ms-flex-shrink: 1;
+				flex-shrink: 1;
+				-moz-flex-grow: 0;
+				-webkit-flex-grow: 0;
+				-ms-flex-grow: 0;
+				flex-grow: 0;
+			}
+
+			.spotlight.alt h3 {
+				color: #FFF;
+			}
+
+			
